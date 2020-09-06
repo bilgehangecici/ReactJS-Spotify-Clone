@@ -9,12 +9,17 @@
     background-color: #040404;
 }
 
+.sidebar__title {
+   
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+
 .sidebar__logo {
 
     object-fit: contain;
     height: 70px;
     padding: 10px;
     margin-right: auto;
-
-
 }
