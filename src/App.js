@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { getTokenFromUrl } from './components/Spotify';
+import { useDataLayerValue } from './components/DataLayer';
+import SpotifyWebApi from 'spotify-web-api-js';
 import Login from './components/Login';
 import Player from './components/Player';
-import { useDataLayerValue } from './components/DataLayer';
 import './styles/App.css';
-import SpotifyWebApi from 'spotify-web-api-js';
 
 const spotify = new SpotifyWebApi();
 
@@ -36,6 +36,15 @@ function App() {
         });
 
       });
+      spotify.getUserPlaylists().then((playlists) => {
+
+        dispatch({
+
+          type: "SET_PLAYLISTS",
+          playlists: playlists,
+
+        });
+      });
     }
 
   }, [dispatch]);
@@ -45,7 +54,7 @@ function App() {
       {
         token ? (
 
-          <Player spotify= {spotify}/>
+          <Player spotify={spotify} />
 
         ) : (
 
