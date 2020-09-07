@@ -4,6 +4,7 @@ export const authEndpoint = "https://accounts.spotify.com/authorize";
 
 const redirectUri = "http://localhost:3000/";
 
+// Paste your clientId from "https://developer.spotify.com/dashboard/login" 
 const clientId = "ad9f9667aaa54acda274e5698653f05a";
 
 const scopes = [
