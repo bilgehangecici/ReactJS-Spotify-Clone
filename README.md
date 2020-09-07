@@ -59,7 +59,7 @@ This clone app is a small part of the Spotify. It can show your discover weekly,
 
 ---
 
-
+## Powered by: [Spotify Developers](https://developer.spotify.com/) ## 
 
 
 
