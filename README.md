@@ -6,5 +6,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 A mini spotify clone app made with **ReactJS - Spotify Web API - Material-UI - Context API**
 
 ---
-
+--> ### Used Technologies ### <--
 ![Spofity Web API](https://developer.spotify.com/assets/WebAPI_intro.png)
+
