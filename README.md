@@ -15,4 +15,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ---
 
+<a href="https://reactjs.org/docs/context.html" target= "_blank"><h4>React Context API</h4></a>
+
+[![React Context API](https://www.qed42.com/sites/default/files/2020-05/Context%20API%20in%20React%20with%20Hooks.png)](https://reactjs.org/docs/context.html)
+
+---
 
