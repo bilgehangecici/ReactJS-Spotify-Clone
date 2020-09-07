@@ -45,6 +45,21 @@ This clone app is a small part of the Spotify. It can show your discover weekly,
 
 ![UserAuthentication](https://github.com/Bgstatic/ReactJS-Spotify-Clone/blob/master/readme/UserAuthentication.jpg)
 
+---
+
+* <h4> Main Page </h4>
+
+![MainPage](https://github.com/Bgstatic/ReactJS-Spotify-Clone/blob/master/readme/MainPage.jpg)
+
+---
+
+* <h4> Main Page (cont.) </h4>
+
+![MainPage2](https://github.com/Bgstatic/ReactJS-Spotify-Clone/blob/master/readme/MainPage2.jpg)
+
+---
+
+
 
 
 
